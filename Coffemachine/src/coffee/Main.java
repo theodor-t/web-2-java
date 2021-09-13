@@ -11,10 +11,10 @@ public class Main {
         String nominal;
         String option;
         System.out.println("==========================");
-        System.out.println("Coffe - 5$");
-        System.out.println("Cappucino - 5$");
-        System.out.println("Latte - 10$");
-        System.out.println("Americana - 10$");
+        System.out.println("1 - Coffe - 5$           |");
+        System.out.println("2 - Cappucino - 5$       |");
+        System.out.println("3 - Latte - 10$          |");
+        System.out.println("4 - Americana - 10$      |");
         System.out.println("==========================");
         System.out.println("Please insert banknote");
         nominal = reader.readLine();

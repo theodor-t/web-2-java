@@ -37,7 +37,10 @@ public class CoffeeMachine {
         if (this.pay(nominal)) {
 
             coffeeType = this.choose(option);
-
+            if (this.choose(option).contains("Incorrect")){
+                System.out.println(coffeeType);
+                return;
+            }
             this.showInfo(
                     "You choose is: " + coffeeType
             );
